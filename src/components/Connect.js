@@ -24,7 +24,7 @@ const Connect = () => {
     if (address) {
       fetchBalance();
     }
-  }, [address, getBalance]);
+  }, [aeSdk,address, getBalance]);
 
   const handleConnectClick = async () => {
     setIsLoading(true);
